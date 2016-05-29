@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nanodegree</string>
+    <string name="activity_name">My Nanodegree Project\'s</string>
+
+    <string-array name="names">
+        <item>Popular Movies</item>
+        <item>Stock Hawk</item>
+        <item>Build it Bigger</item>
+        <item>Make Your App Material</item>
+        <item>Go Ubiquitous</item>
+        <item>Capstone</item>
+    </string-array>
+</resources>
