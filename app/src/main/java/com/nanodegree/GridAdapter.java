@@ -49,6 +49,13 @@ public class GridAdapter extends BaseAdapter {
         button = (SquareButtonView) convertView.findViewById(R.id.gridImageButton);
         button.setText(namesArray[position]);
         button.setBackgroundColor(colorArray[position]);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(mContext, "This button will launch " + namesArray[position] + " app",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
         return button;
     }
 
